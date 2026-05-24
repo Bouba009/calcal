@@ -1,0 +1,23 @@
+{
+  "name": "aitchikh-pos",
+  "version": "1.0.0",
+  "description": "Enterprise POS Pro",
+  "author": "Bouba009",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --publish never"
+  },
+  "devDependencies": {
+    "electron": "^22.3.27",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.aitchikh.pos",
+    "productName": "Aitchikh POS",
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
